@@ -4,7 +4,7 @@ namespace QuestPlugin;
 
 use pocketmine\event\Listener;
 use pocketmine\event\block\BlockBreakEvent;
-use QuestPlugin\Quest;
+use QuestPlugin\quest\Quest;
 
 class BreakBlockQuest extends Quest {
     public function __construct($name, $max, $player, $plugin, $blockType, $rewardCommand) {

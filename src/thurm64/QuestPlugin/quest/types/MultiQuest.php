@@ -3,7 +3,7 @@ declare(strict_types=1);
 namespace QuestPlugin;
 
 use pocketmine\event\Listener;
-use QuestPlugin\Quest;
+use QuestPlugin\quest\Quest;
 
 abstract class MultiQuest extends Quest {
 
