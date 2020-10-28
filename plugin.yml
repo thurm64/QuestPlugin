@@ -1,0 +1,5 @@
+name: QuestPlugin
+version: 0.1-alpha
+api: 3.11.0
+author: thurm64
+main: src\thurm64\QuestPlugin\QuestPlugin
